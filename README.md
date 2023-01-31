@@ -6,6 +6,10 @@
 
 This application will take in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
 
+## Outout File
+
+[Output File](https://github.com/shirleyama/team-profile-generator/blob/main/output/team.html)
+
 ## Table of Contents
 
 1. [Installation](#installation)
