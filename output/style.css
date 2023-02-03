@@ -1,0 +1,26 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.team-heading {
+  background-color: #6096b4;
+}
+
+.card {
+  margin: 25px;
+}
+
+.manager.card-header {
+  background-color: #93bfcf;
+}
+
+.engineer.card-header {
+  background-color: #bdcdd6;
+}
+
+.intern.card-header {
+  background-color: #eee9da;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
