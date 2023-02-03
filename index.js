@@ -65,6 +65,7 @@ const internQuestion = [
 
 // type manager create, and then choose member type
 const teamMembers = [];
+console.log("\n--------Welcome to the Team Profile Gen App!--------\n");
 inquirer
   .prompt([
     {
@@ -117,6 +118,15 @@ const addEmployee = () => {
     .then(({ addEmployeeType }) => {
       if (addEmployeeType === "Engineer") {
         inquirer.prompt(engineerQuestion).then((engineerAnswer) => {
+          if (
+            !engineerAnswer.name ||
+            !engineerAnswer.id ||
+            !engineerAnswer.email ||
+            !engineerAnswer.github
+          ) {
+            console.error("All fields are required");
+            return addEmployee();
+          }
           teamMembers.push(
             new Engineer(
               engineerAnswer.name,
@@ -129,6 +139,15 @@ const addEmployee = () => {
         });
       } else if (addEmployeeType === "Intern") {
         inquirer.prompt(internQuestion).then((internAnswer) => {
+          if (
+            !internAnswer.name ||
+            !internAnswer.id ||
+            !internAnswer.email ||
+            !internAnswer.school
+          ) {
+            console.error("All fields are required");
+            return addEmployee();
+          }
           teamMembers.push(
             new Intern(
               internAnswer.name,
