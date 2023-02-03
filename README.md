@@ -10,6 +10,10 @@ This application will take in information about employees on a software engineer
 
 [Output File](https://github.com/shirleyama/team-profile-generator/blob/main/output/team.html)
 
+## Screenshot
+
+![Team Profile Generator screenshot](screenshot-team-generator.jpg)
+
 ## Table of Contents
 
 1. [Installation](#installation)
@@ -25,6 +29,8 @@ Load it in a node environment and run with node index.js
 ## Usage
 
 node index.js
+
+![Team Profile Generator screenshot](screenshot-team-generator.jpg)
 
 ## License
 
