@@ -12,7 +12,7 @@ This application will take in information about employees on a software engineer
 
 ## Screenshot
 
-![Team Profile Generator screenshot](screenshot-team-generator.jpg)
+![Team Profile Generator screenshot](output/screenshot-team-generator.jpg)
 
 ## Table of Contents
 
