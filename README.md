@@ -30,7 +30,7 @@ Load it in a node environment and run with node index.js
 
 node index.js
 
-![Team Profile Generator screenshot](screenshot-team-generator.jpg)
+![Team Profile Generator screenshot](output/screenshot-team-generator.jpg)
 
 ## License
 
