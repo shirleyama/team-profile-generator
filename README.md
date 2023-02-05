@@ -6,9 +6,15 @@
 
 This application will take in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
 
+## Screen Recorder Link
+
+[Team Profile Generator Link](https://watch.screencastify.com/v/Of34SPl8Fz4dE8REZEFl)
+
+
 ## Output File
 
 [Output File](https://github.com/shirleyama/team-profile-generator/blob/main/output/team.html)
+
 
 ## Screenshot
 
